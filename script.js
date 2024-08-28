@@ -56,7 +56,7 @@ const filteredArray = (array, value) =>{
     console.log(value);
 
     return array.filter((item) => {
-        return item.title.includes(value) || item.<i class="fa fa-google-plus-circle" aria-hidden="true"></i>.includes(value)
+        return item.title.includes(value) || item.price.includes(value)
     })
 }
 
